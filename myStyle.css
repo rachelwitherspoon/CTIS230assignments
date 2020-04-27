@@ -4,6 +4,7 @@ body {
     font-weight:lighter;
     font-style:normal;
     font-family:Verdana, "arial narrow", sans-serif;
+    background-color:whitesmoke;
 }
 h2{
     background-color: honeydew;
@@ -11,9 +12,7 @@ h2{
     font-weight: bold;
     font-style:normal;
     font-family:georgia, serif;
-
 }
-strong {background-color: mistyrose;}
 a:link {
     color:powderblue;
     text-decoration: none;
