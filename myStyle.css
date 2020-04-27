@@ -1,6 +1,32 @@
 body {
     color:midnightblue;
+    font-size:1.3em;
+    font-weight:lighter;
+    font-style:normal;
+    font-family:Verdana, "arial narrow", sans-serif;
 }
 h2{
-    background-color: black;
+    background-color: honeydew;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style:normal;
+    font-family:georgia, serif;
+
+}
+strong {background-color: mistyrose;}
+a:link {
+    color:powderblue;
+    text-decoration: none;
+}
+a:visited {
+    color:darkcyan;
+    text-decoration:none;
+}
+a:hover {
+    color:lightskyblue;
+    text-decoration:underline;
+}
+a:active {
+    color:lightskyblue;
+    text-decoration:underline;
 }
