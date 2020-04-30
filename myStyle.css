@@ -7,6 +7,7 @@ body {
     background-color:whitesmoke;
     margin-left: 10%;
     margin-right: 10%;
+    padding: 10px;
 }
 h1 {
     width:400px;
@@ -26,6 +27,7 @@ h1, h2 {
     margin-left: 10%;
     margin-right: 10%;
     border: 5px solid mistyrose;
+    padding: 10px;
 }
 h1 strong {
     color:rosybrown;
@@ -37,10 +39,19 @@ ul.frontpage {
     font-weight: bold;
 }
 img#friendsgif {
-    width:40%
+    width:40%;
+    padding: 10px;
+    float:left;
 }
 img#horsepic {
-    height:500px
+    height:500px;
+    padding: 10px;
+    align: center;
+}
+img#asblogo {
+    padding:10px;
+    align: center;
+    width: 30%;
 }
 a:link {
     color:darkcyan;
@@ -60,9 +71,6 @@ a:active {
 }
 div#important {
     font-weight: bold;
-}
-img#friendsgif {
-    float:left;
 }
 div.navbar {
     display:flex;
