@@ -7,11 +7,11 @@ body {
     background-color:whitesmoke;
     margin-left: 10%;
     margin-right: 10%;
-    padding: 10px;
+    padding: 1em;
 }
 h1 {
     width:400px;
-    padding: 10px;
+    padding: 1em;
     text-shadow:.1em .1em lightslategray;
 }
 h2{
@@ -27,7 +27,7 @@ h1, h2 {
     margin-left: 10%;
     margin-right: 10%;
     border: 5px solid mistyrose;
-    padding: 10px;
+    padding: 1em;
 }
 h1 strong {
     color:rosybrown;
@@ -36,22 +36,34 @@ h2.subpage {
     font-style: italic;
 }
 ul.frontpage {
-    font-weight: bold;
+    font-style:italic;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 0.1em solid midnightblue
 }
 img#friendsgif {
-    width:40%;
-    padding: 10px;
+    width:30%;
+    padding: 1em;
     float:left;
+    position: relative;
+    top: 5.25em;
+    margin-left: 10%
 }
 img#horsepic {
     height:500px;
-    padding: 10px;
-    align: center;
+    padding: 1em;
+    margin-left:10%;
+    margin-right:10%;
+    position: relative;
+    left: 8em;
 }
 img#asblogo {
-    padding:10px;
-    align: center;
+    padding:1em;
     width: 30%;
+    margin-left:10%;
+    margin-right:10%;
+    position: relative;
+    left: 10em;
 }
 a:link {
     color:darkcyan;
@@ -69,9 +81,7 @@ a:active {
     color:lightskyblue;
     text-decoration:underline;
 }
-div#important {
-    font-weight: bold;
-}
+
 div.navbar {
     display:flex;
     margin-left:10%;
@@ -86,7 +96,22 @@ div.footer {
     margin-right:10%;
     justify-content:space-around;
     border: 2px solid midnightblue;
-    color:powderblue;
+    color:lightskyblue;
     font-weight: lighter;
     font-size: small;
+    position: relative;
+    top: 1em;
+}
+div.basic {
+    text-align: right;
+    margin-right:10%;
+    line-height: 1.25em;
+}
+div#PI {
+    position: relative;
+    right: 9.5em;
+}
+div.text {
+    margin-left: 10%;
+    margin-right: 10%;
 }
