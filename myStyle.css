@@ -70,6 +70,7 @@ div.navbar {
     margin-right:20%;
     justify-content:space-around;
     border: 2px solid midnightblue;
+    align-items: stretch;
 }
 div.footer {
     display:flex;
