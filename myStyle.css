@@ -7,11 +7,29 @@ body {
     background-color:whitesmoke;
 }
 h2{
-    background-color: honeydew;
     font-size: 1.5em;
     font-weight: bold;
     font-style:normal;
     font-family:georgia, serif;
+}
+h1, h2 {
+    color: mistyrose;
+    background-color: midnightblue;
+}
+h1 strong {
+    color:rosybrown;
+}
+h2.subpage {
+    font-style: italic;
+}
+ul.frontpage {
+    font-weight: bold;
+}
+img#friendsgif {
+    width:100%
+}
+img#horsepic {
+    height:500px
 }
 a:link {
     color:darkcyan;
