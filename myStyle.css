@@ -5,16 +5,27 @@ body {
     font-style:normal;
     font-family:Verdana, "arial narrow", sans-serif;
     background-color:whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1 {
+    width:400px;
+    padding: 10px;
+    text-shadow:.1em .1em lightslategray;
 }
 h2{
     font-size: 1.5em;
     font-weight: bold;
     font-style:normal;
     font-family:georgia, serif;
+    padding: 10px;
 }
 h1, h2 {
     color: mistyrose;
     background-color: midnightblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 5px solid mistyrose;
 }
 h1 strong {
     color:rosybrown;
@@ -26,7 +37,7 @@ ul.frontpage {
     font-weight: bold;
 }
 img#friendsgif {
-    width:100%
+    width:50%
 }
 img#horsepic {
     height:500px
@@ -46,4 +57,10 @@ a:hover {
 a:active {
     color:lightskyblue;
     text-decoration:underline;
+}
+div#important {
+    font-weight: bold;
+}
+img#friendsgif {
+    float:left;
 }
