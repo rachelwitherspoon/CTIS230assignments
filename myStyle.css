@@ -66,15 +66,18 @@ img#friendsgif {
 }
 div.navbar {
     display:flex;
-    background-color:peachpuff;
     margin-left:20%;
     margin-right:20%;
     justify-content:space-around;
+    border: 2px solid midnightblue;
 }
 div.footer {
     display:flex;
-    background-color:peachpuff;
     margin-left:20%;
     margin-right:20%;
     justify-content:space-around;
+    border: 2px solid midnightblue;
+    color:powderblue;
+    font-weight: lighter;
+    font-size: small;
 }
