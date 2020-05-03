@@ -17,3 +17,18 @@ function onMouseOut() {
     myitem.style.backgroundColor = "";
 }
 //When the cursor is moved the text returns to it's original format
+thebutton = document.getElementById("thebutton");  
+otheritem = document.getElementById("buttontest");
+thebutton.addEventListener("click", onButtonClick);
+function onButtonClick() {  
+    otheritem.style.color = "mistyrose";
+    otheritem.style.backgroundColor = "midnightblue";
+}
+
+anotherbutton = document.getElementById("anotherbutton");  
+anotheritem = document.getElementById("anotherbuttontest");
+anotherbutton.addEventListener("click", onButtonClick);
+function onButtonClick() {  
+    anotheritem.style.color = "mistyrose";
+    anotheritem.style.backgroundColor = "midnightblue";
+}
