@@ -19,8 +19,8 @@ function onMouseOut() {
 //When the cursor is moved the text returns to it's original format
 thebutton = document.getElementById("thebutton");  
 otheritem = document.getElementById("buttontest");
-thebutton.addEventListener("click", onButtonClick);
-function onButtonClick() {  
+thebutton.addEventListener("click", onAnotherButtonClick);
+function onAnotherButtonClick() {  
     otheritem.style.color = "mistyrose";
     otheritem.style.backgroundColor = "midnightblue";
 }
@@ -31,4 +31,22 @@ anotherbutton.addEventListener("click", onButtonClick);
 function onButtonClick() {  
     anotheritem.style.color = "mistyrose";
     anotheritem.style.backgroundColor = "midnightblue";
+}
+
+header = document.getElementById("header");
+header.addEventListener("mouseover", onMouseOver);
+function onMouseOver() {
+    header.style.color = "white";
+}
+header = document.getElementById("header");
+header.addEventListener("mouseout", onMouseOut);
+function onMouseOut() {
+    header.style.color = "";
+}
+
+textentry = document.getElementById("myinput");  
+textentry.addEventListener("change", onChange);
+function onChange() {  
+    newtext = myinput.value;  
+    otheritem.innerHTML = newtext;  
 }
