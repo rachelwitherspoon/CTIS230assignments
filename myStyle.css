@@ -133,3 +133,17 @@ div.text {
 div#important {
     font-weight: bold;
 }
+
+@media (max-width: 750px) {
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    h2 {
+        width: 100%
+    }
+}
+
