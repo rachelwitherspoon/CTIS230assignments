@@ -44,10 +44,11 @@ ul.frontpage {
 img#logo {
     width:30%;
     padding: 3em;
-    float:left;
-    position: relative;
+    float:none;
+    position: middle;
    /* top: 5.25em;*/
-    margin-left: 10%;
+    margin: 3em;
+    left: 20em;
 }
 img#horsepic {
     height:500px;
@@ -64,6 +65,12 @@ img#asblogo {
     margin-right:10%;
     position: relative;
     left: 3em;
+}
+img#ecg {
+    padding:1em;
+    width: 30%;
+    margin-left:10%;
+    margin-right:10%;
 }
 a:link {
     color:darkcyan;
@@ -123,8 +130,8 @@ div#important {
 /*use a media query to ask how big the viewport is*/
 @media (max-width: 750px) { /*these rules take effect when the viewport if small (specifically less than 750px)*/
     body {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     h1 {
         width: "";
@@ -143,7 +150,8 @@ div#important {
 
 @media screen and (orientation: portrait) {
     body {
-        background-color: white;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     h2 {
         width: "";
