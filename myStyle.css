@@ -41,14 +41,13 @@ ul.frontpage {
     margin-right: 10%;
     border-bottom: 0.1em solid midnightblue
 }
-img#logo {
+img#logoimage {
     width:30%;
-    padding: 3em;
+    padding: .25em;
     float:none;
-    position: middle;
    /* top: 5.25em;*/
-    margin: 3em;
-    left: 20em;
+    margin: 10%;
+    left: 10%;
 }
 img#horsepic {
     height:500px;
@@ -145,6 +144,10 @@ div#important {
         flex-direction:row;
         flex-wrap: wrap-reverse;
         width: "";
+    }
+    img#logoimage {
+        width:50%;
+        padding: 3em;
     }
 }
 

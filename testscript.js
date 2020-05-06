@@ -57,8 +57,9 @@ theBigImage = document.getElementById("largeview");
 cardShown = false;
 
 theImgDiv.addEventListener("click", makeBigImage);
-//theBigImage.addEventListener("click", hideBigImage);
+//theBigImage.addEventListener("click", hidetheImage);
 theBigImage.innerHTML = "";
+
 
 function makeBigImage() {
     if (theBigImage.innerHTML == "") {
@@ -68,9 +69,9 @@ function makeBigImage() {
         theBigImage.classList.remove("dontshow");
 
         if (theImgDiv.style.position == "") {
-            theImgDiv.style.position = "absolute";
+            theImgDiv.style.position = "relative";
             theImgDiv.style.top = "300";
-            theImgDiv.style.left = "300";
+            theImgDiv.style.left = "100";
             theImage.style.width = "40%";
             theImage.src = "Images/ecg.jpg";
         }
