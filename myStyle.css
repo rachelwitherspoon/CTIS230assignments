@@ -9,21 +9,6 @@ body {
     margin-right: 10%;
     padding: 1em;
 }
-
-/*use a media query to ask how big the viewport is*/
-@media (max-width: 750px) { /*these rules take effect when the viewport if small (specifically less than 750px)*/
-    body {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-}
-
-@media screen and (orientation: portrait) {
-    body {
-        background-color: white;
-    }
-}
-
 h1 {
     width:400px;
     padding: 1em;
@@ -58,11 +43,11 @@ ul.frontpage {
 }
 img#logo {
     width:30%;
-    padding: 1em;
+    padding: 3em;
     float:left;
     position: relative;
-    top: 5.25em;
-    margin-left: 10%
+   /* top: 5.25em;*/
+    margin-left: 10%;
 }
 img#horsepic {
     height:500px;
@@ -78,7 +63,7 @@ img#asblogo {
     margin-left:10%;
     margin-right:10%;
     position: relative;
-    left: 10em;
+    left: 3em;
 }
 a:link {
     color:darkcyan;
@@ -122,10 +107,11 @@ div.basic {
     margin-right:10%;
     line-height: 1.25em;
 }
-span#PI {
-    position: relative;
-    right: 9.5em;
-}
+/*span#PI {
+    position: absolute;
+    top: 56%;
+    right: 42%;
+}*/
 div.text {
     margin-left: 10%;
     margin-right: 10%;
@@ -134,17 +120,42 @@ div#important {
     font-weight: bold;
 }
 
-@media (max-width: 750px) {
+/*use a media query to ask how big the viewport is*/
+@media (max-width: 750px) { /*these rules take effect when the viewport if small (specifically less than 750px)*/
     body {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    h1 {
+        width: "";
+        font-size: smaller;
+    }
+    h2 {
+        font-size: larger;
+    }
+    div.nav {
+        font-size: small;
+        flex-direction:row;
+        flex-wrap: wrap-reverse;
+        width: "";
     }
 }
 
 @media screen and (orientation: portrait) {
+    body {
+        background-color: white;
+    }
     h2 {
         width: "";
     }
+}
+@media (max-width:2000px) {
+    img#horsepic {
+        position: center;
+        height: 200px;
+    }
+    img#asblogo {
+        position: center;
+        height: 200px;
     }
 }
-
